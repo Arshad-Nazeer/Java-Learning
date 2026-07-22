@@ -32,11 +32,11 @@ public class userInput {
             System.out.println("You are NOT enrolled as a student");
 
         // note:- when you input an int or double before a string, the /n character is present in the input buffer which is taken as input to string on pressing enter
-        int height=sc.nextInt();
+        int weight=sc.nextInt();
         sc.nextLine(); // can be used right after int input to clear \n from input buffer
         String color=sc.nextLine();
 
-        System.out.println("you are "+height+" cm tall");
+        System.out.println("you are "+weight+" kg heavy");
         System.out.println("your favourite color is "+color);
 
         double width=0, height=0, area=0;
