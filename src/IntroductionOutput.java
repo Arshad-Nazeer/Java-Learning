@@ -3,11 +3,13 @@ public class IntroductionOutput {
         // Java is a high-level, object-oriented, platform-independent programming language developed by Sun Microsystems (now owned by Oracle). It is designed to let developers write code once and run it anywhere using the Java Virtual Machine (JVM)
 
         // The Java Virtual Machine (JVM) is a virtual machine that executes Java bytecode and enables Java programs to run on different operating systems without modification.
+
+        // The Java Runtime Environment (JRE) is a software package that provides everything needed to run Java applications, including the JVM and the required Java libraries.
         // JRE = JVM + Java Class Libraries
         // Run Java programs
         // Cannot compile Java source code.
 
-        // The Java Runtime Environment (JRE) is a software package that provides everything needed to run Java applications, including the JVM and the required Java libraries.
+        // Java SDK (Software Development Kit), also called the JDK (Java Development Kit), is a collection of tools required to develop, compile, debug, and run Java applications.
         // JDK = JRE + Development Tools
         // javac – Compiles .java files into .class files.
         // java – Runs Java programs.
