@@ -23,5 +23,7 @@ public class IntroductionOutput {
         This is a multi-line comment
          */
         // sout:- shortcut to write "System.out.println"
+
+        // Every Java file is typically a class because Java is an object-oriented programming (OOP) language, and almost all code must be written inside a class. A class serves as a blueprint that groups related data (variables) and behavior (methods) together, allowing Java to organize code in a structured and reusable way. Methods such as main(), which is the program's entry point, cannot exist outside a class, so even the simplest Java program requires one. Although a .java file can contain multiple classes, if it contains a public class, the filename must exactly match that class name.
     }
 }
