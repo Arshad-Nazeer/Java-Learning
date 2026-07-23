@@ -1,7 +1,7 @@
 import java.util.Scanner;
 // the Scanner class is used to read input from the user, a file, or another input source. It belongs to the java.util package.
 
-public class UserInput {
+public class L03_UserInput {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         // System.in means input is taken from the keyboard.

@@ -1,7 +1,7 @@
 import java.util.Random;
 // The Random class in the java.util package is used to generate pseudorandom values such as integers, doubles, floats, longs, and booleans. These values are produced by a deterministic algorithm, so they are not truly random but appear random for most programming purposes.
 
-public class RandomNumbers {
+public class L08_RandomNumbers {
     public static void main(String[] args) {
         Random rand=new Random();
 

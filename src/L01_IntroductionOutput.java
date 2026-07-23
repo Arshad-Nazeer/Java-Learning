@@ -1,4 +1,4 @@
-public class IntroductionOutput {
+public class L01_IntroductionOutput {
     public static void main(String[] args) {
         // Java is a high-level, object-oriented, platform-independent programming language developed by Sun Microsystems (now owned by Oracle). It is designed to let developers write code once and run it anywhere using the Java Virtual Machine (JVM)
 

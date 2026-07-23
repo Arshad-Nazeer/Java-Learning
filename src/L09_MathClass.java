@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class MathClass {
+public class L09_MathClass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

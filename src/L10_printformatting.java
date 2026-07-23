@@ -1,4 +1,4 @@
-public class printf {
+public class L10_printformatting {
     public static void main(String[] args){
 
         // printf :- is a method used to format output

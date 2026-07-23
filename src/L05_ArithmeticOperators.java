@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class ArithmeticOperators {
+public class L05_ArithmeticOperators {
     public static void main(String[] args) {
         int x=10, y=8, z;
 
