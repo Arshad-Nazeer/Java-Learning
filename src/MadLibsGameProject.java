@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class madLibsGameProject {
+public class MadLibsGameProject {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
