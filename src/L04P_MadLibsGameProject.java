@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class L04_MadLibsGameProject {
+public class L04P_MadLibsGameProject {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
