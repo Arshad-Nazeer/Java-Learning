@@ -29,11 +29,13 @@ public class L21_WhileLoops {
         // Entering age
         int age=0;
 
-        do{
+        System.out.print("Enter your age: ");
+        age=sc.nextInt();
+        while(age<0){
             System.out.println("Invalid Input");
             System.out.print("Enter your age: ");
             age=sc.nextInt();
-        }while(age<0);
+        }
         System.out.println("You are "+age+" years old.");
 
         // entering a number in a certain range
