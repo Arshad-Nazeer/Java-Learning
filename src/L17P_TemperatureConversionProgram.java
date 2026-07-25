@@ -14,7 +14,7 @@ public class L17P_TemperatureConversionProgram{
         System.out.print("Convert to celsius or fahrenheit? (C or F): ");
         unit=sc.next().toUpperCase();
 
-        newTemp = unit.equals("C") ? (temp-32)*(5.0/9.0) : (temp*(9.0/5.0)+32);
+        newTemp = unit.equals('C') ? (temp-32)*(5.0/9.0) : (temp*(9.0/5.0)+32);
 
         System.out.printf("%.2f° %s", newTemp, unit);
 
