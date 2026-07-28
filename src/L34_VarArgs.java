@@ -11,6 +11,8 @@ public class L34_VarArgs {
         System.out.println(average(1, 2, 3, 4, 5, 6));
         System.out.println(add());
         System.out.println(average()); // dividing by zero
+        // double division: 0.0/0.0 gives NaN
+        // integer division: 0/0 throws ArithmeticException
     }
 
     static int add(int... numbers){
