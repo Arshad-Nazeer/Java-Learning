@@ -10,11 +10,11 @@ public class L44_inheritance {
         Dog dog = new Dog();
         Cat cat = new Cat();
 
-        // attribute inherited from parent class
+        // attribute inherited from grandparent class
         System.out.println(dog.isAlive);
         System.out.println(cat.isAlive);
 
-        // method inherited from parent class
+        // method inherited from parent animal class
         dog.eat();
         cat.eat();
 
@@ -30,7 +30,11 @@ public class L44_inheritance {
 
         //parallel inheritance:- (Animal, Plant) <- Organism
         Plant plant = new Plant();
+
+        // inherited attribute
         System.out.println(plant.isAlive);
+
+        // parent method
         plant.photosynthesis();
     }
 }
