@@ -42,5 +42,9 @@ public class L56_ArrayLists {
 
         Collections.sort(fruits);
         System.out.println(fruits);
+
+        for(String fruit : fruits){
+            System.out.println(fruit);
+        }
     }
 }
