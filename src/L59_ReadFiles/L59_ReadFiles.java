@@ -16,7 +16,7 @@ public class L59_ReadFiles {
         // FileReader :- Opens a text file and reads its contents character by character. It provides the basic mechanism for reading text directly from a file but does not support reading entire lines.
         // BufferedReader → Wraps a Reader (such as FileReader) and stores data in a buffer(memory) for faster reading. It provides convenient methods like readLine(), making it efficient to read text one line at a time.
 
-         String filePath = "C:\\Users\\arsha\\Desktop\\Arshad Nazeer\\javafile.txt";
+         String filePath = "C:\\Users\\arsha\\Documents\\JAVA\\JavaLearning1\\src\\L59_ReadFiles\\javafile.txt";
 
          try(BufferedReader reader = new BufferedReader(new FileReader(filePath))){
              System.out.println("That File Exists");

@@ -36,6 +36,7 @@ public class L58_WriteFiles {
             System.out.println(ex.getMessage());
             System.out.println("Could not locate file location");
         } catch(IOException e){ // needs to be imported
+            // general exception for input/output operations. It catches many (but not all) I/O-related exceptions because many of them inherit from IOException.
             // occurs if failed to write file
             // used as a safety net, its not specific
             System.out.println(e.getMessage());
