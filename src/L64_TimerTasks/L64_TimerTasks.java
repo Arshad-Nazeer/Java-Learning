@@ -15,9 +15,11 @@ public class L64_TimerTasks {
         // Create a subclass of TimerTask and @Override run()
         // TimerTask is an abstract class. You must provide an implementation of run().
 
+        // both are part of java.util
+
         Timer timer = new Timer();
         TimerTask task = new TimerTask(){
-            // this is a shortcut instead of creating a subclass and overiding run() to define task
+            // this is a shortcut if you not reusing it instead of creating a subclass and overriding run() to define task
             @Override
             public void run() {
                 System.out.println("Hello World");
@@ -40,9 +42,14 @@ public class L64_TimerTasks {
             }
         };
 
+        // .schedule() Schedules a task to execute after a specified delay or repeatedly with a fixed delay between consecutive executions. If a task is delayed, future executions are also delayed.
+        //Uses fixed delay scheduling.
+        // Next execution is based on when the previous one finishes.
+        // Delays accumulate over time.
         timer.schedule(task, 3000); // (task, delay in ms)
 
+        // The execution time is simply how long the run() method takes to execute.
         // repeating task
-        timer.schedule(task2, 3000, 1000); // (task, starting delay, interval)
+        timer.scheduleAtFixedRate(task2, 3000, 1000); // (task, starting delay, interval)
     }
 }
