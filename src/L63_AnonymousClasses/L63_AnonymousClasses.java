@@ -5,7 +5,7 @@ public class L63_AnonymousClasses {
         // A class that doesn't have a name
         // Cannot be reused
         // Add custom behaviour without having to create a new class
-        // when we need a single object of a class that is differnt than the others
+        // when we need a single object of a class that is different than the others
         // Often used for one time uses (TImmerTask, Runnable, Callbacks)
 
         Dog dog = new Dog();
@@ -16,7 +16,7 @@ public class L63_AnonymousClasses {
         talkingDog.speak();
 
         Dog dog2 = new Dog(){
-            // add custom behaviour here to create an anonymous class that is not named and cannot be reused from a pre existing class
+            // add custom behaviour here in a preexisting class to create an anonymous class that is not named and cannot be reused
             // define unique properties and override methods
             @Override
             void speak(){

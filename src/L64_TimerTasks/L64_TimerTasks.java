@@ -19,7 +19,7 @@ public class L64_TimerTasks {
 
         Timer timer = new Timer();
         TimerTask task = new TimerTask(){
-            // this is a shortcut if you not reusing it instead of creating a subclass and overriding run() to define task
+            // this is a shortcut to define task instead of creating a subclass and overriding run() to define task
             @Override
             public void run() {
                 System.out.println("Hello World");
@@ -27,7 +27,7 @@ public class L64_TimerTasks {
         };
 
         TimerTask task2 = new TimerTask(){
-            // repeating this task indefinitely or counter number of times
+            // repeating this task indefinitely or #counter number of times
             int counter = 8;
 
             @Override
@@ -50,6 +50,6 @@ public class L64_TimerTasks {
 
         // The execution time is simply how long the run() method takes to execute.
         // repeating task
-        timer.scheduleAtFixedRate(task2, 3000, 1000); // (task, starting delay, interval)
+        timer.schedule(task2, 3000, 1000); // (task, starting delay, interval)
     }
 }
