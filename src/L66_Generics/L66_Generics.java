@@ -20,6 +20,7 @@ public class L66_Generics {
         Box<String> box = new Box<>();
         box.setItem("Mercury");
         System.out.println(box.getItem());
+        System.out.println(box.item);
 
         Box<Integer> box2 = new Box<>();
         box2.setItem(5);

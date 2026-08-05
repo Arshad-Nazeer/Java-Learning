@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class L67_HashMaps {
     public static void main(String[] args){    // HashMap
-        // A data structure w\that stores key-value pairs
+        // A data structure that stores key-value pairs
         // Keys are unique, but values can be duplicated
         // Does not maintain any order, but is memory efficient
         // HashMap<key, value>
