@@ -16,6 +16,7 @@ public class L69_Threading {
         // How to create a Thread
         // Option 1. Extend the Thread class (simpler)
         // Option 2. Implement the Runnable Interface (better)
+        // Extending Thread uses up your only superclass, while implementing Runnable leaves your class free to extend another class.
 
         Scanner sc = new Scanner(System.in);
 
@@ -47,8 +48,9 @@ public class L69_Threading {
         System.out.println("Hello " + name);
         */
 
-        MyRunnable myRunnable = new MyRunnable();
-        Thread thread = new Thread(myRunnable);
+        MyRunnable myRunnable = new MyRunnable(); // task
+        Thread thread = new Thread(myRunnable);   // worker
+        // thread objects accepts any object that implements Runnable
         thread.setDaemon(true); // Daemon thread ends when main thread ends
         thread.start();
 
@@ -58,5 +60,7 @@ public class L69_Threading {
         System.out.println("Hello " + name);
 
         sc.close();
+
+
     }
 }
