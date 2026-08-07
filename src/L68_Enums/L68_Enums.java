@@ -45,6 +45,6 @@ public class L68_Enums {
         System.out.println(day.getDayNumber());
 
         System.out.println(Day.values());
-        System.out.println(Day.MONDAY.ordinal());     // 1 (zero-based position));
+        System.out.println(day.ordinal());     // 1 (zero-based position));
     }
 }

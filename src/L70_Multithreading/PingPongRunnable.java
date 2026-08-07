@@ -11,7 +11,7 @@ public class PingPongRunnable implements Runnable{
     public void run() {
         for(int i=1;i<=5;i++){
             try{
-                Thread.sleep(1000); // current Threed sleeps for 1 sec
+                Thread.sleep(1000); // current Thread sleeps for 1 sec
                 System.out.println(Thread.currentThread().getName() +" "+this.text);
             }catch(InterruptedException e) {
                 System.out.println(e.getMessage());
